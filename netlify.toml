@@ -1,0 +1,4 @@
+# Site estático: os arquivos de publicação já estão prontos em dist/.
+[build]
+  publish = "dist"
+  command = ""
