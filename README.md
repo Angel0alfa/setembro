@@ -1,23 +1,21 @@
 # Setembro Amarelo — CEPI Jardim Cascata
 
-Site estático com fontes e imagens locais. Diretório público: dist.
-Interface responsiva, painéis translúcidos, roteiro expansível, perguntas interativas e downloads.
-Sem coleta de dados ou envio de relatos. Os horários da atividade dependem de confirmação da escola.
+Site estático da campanha “Sua Vida Importa”, com interface responsiva, glassmorphism, pétalas animadas, roteiro expansível, perguntas interativas e materiais para download.
 
-Materiais e guia de identidade em dist/assets; pacote em dist/materiais-setembro-amarelo.zip.
+O conteúdo publicado fica em `dist/`. As imagens, fontes e o pacote de materiais são servidos pela versão oficial do projeto no ChatGPT Sites, mantendo a mesma identidade visual aprovada.
 
 ## Publicação no Netlify
 
-O arquivo `netlify.toml` na raiz configura a publicação da pasta `dist`.
-O site usa HTML, CSS e JavaScript prontos, sem instalação de dependências
-ou comando de build. Mantenha a pasta `dist` e o `netlify.toml` no repositório.
+O arquivo `netlify.toml` configura automaticamente:
 
-No Netlify, importe o repositório do GitHub e escolha a branch desejada.
-Deixe o diretório base vazio. A configuração do arquivo define o diretório
-de publicação como `dist` e o comando de build vazio.
+- diretório de publicação: `dist`
+- comando de build: vazio
 
-Os arquivos de `.openai` são exclusivos da hospedagem no Sites e não
-são necessários para o Netlify. O acesso privado do Sites não é transferido
-para outras hospedagens.
+Para publicar, importe este repositório no Netlify e mantenha a branch `main`. Não é necessário instalar dependências.
 
-Referência: https://docs.netlify.com/build/configure-builds/file-based-configuration/
+## Links
+
+- Site atual: https://setembro-amarelo-cepi-cascata.angelo-souares.chatgpt.site
+- Apoio emocional: CVV 188 — https://cvv.org.br/
+
+A roda de conversa é uma atividade educativa e não substitui atendimento profissional.
